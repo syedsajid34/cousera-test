@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Psuedo class</title>
+</head>
+<style>
+	header li
+	{
+		list-style: none;
+	}
+	a:link,a:visited{
+
+		text-decoration: none;
+		background-color:pink;
+		border: 1px solid blue;
+		color: black;
+		display: block;
+        width:200px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	 a:hover,a:active
+	 {
+	 	background-color:green;
+
+	 	color:red;
+
+	 }
+section div:nth-child(odd)
+{
+background-color: gray;
+}
+section div:nth-child(1):hover
+{background-color: orange;
+	cursor: pointer;
+}
+section div:nth-child(2):hover
+{
+	background-color: blue;
+	cursor: pointer;
+}
+section div:nth-child(3):hover
+{
+	background-color: white;
+	cursor: pointer;
+}
+section div:nth-child(4):hover
+{
+	background-color: green;
+	cursor: pointer;
+}
+section div:nth-child(5):hover
+{
+	background-color: red;
+	cursor: pointer;
+}
+header li:nth-child(1)
+{
+
+	font-size: 24px;
+}
+header li:nth-child(2)
+{
+	font-size: 24px;
+}
+header li:nth-child(3)
+{
+	font-size: 24px;
+}
+
+
+
+
+
+
+
+</style>
+<body>
+<h1>Psuedo class selectors</h1>
+<header>
+	<ul>
+		<li><a href="E:/Gahzals">Home</a></li>
+			<li><a href="http://bing.com">Bing</a></li>
+				<li><a href="http://instagram.com">Instagram</a></li>
+</ul>
+</header>
+<section>
+	<div>Div 1</div>
+	<div>Div 2</div>
+	<div>Div 3</div>
+	<div>Div 4</div>
+	<div>Div 5</div>
+	<div>Div 6</div>
+	<div>Div 7</div>
+	<div>Div 8</div>
+	<div>Div 9</div>
+</section>
+<img src="images/SJD.jpg" width="200px" height="200px" alt="This is My image.">
+</body>
+</html>
